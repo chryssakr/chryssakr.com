@@ -2191,7 +2191,7 @@ input[type="radio"] + label:before {
 }
 
 .image:hover {
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 .image img {
