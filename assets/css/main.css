@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #a2a2a25a;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -218,7 +218,7 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
+  color: #dedede;
   font-weight: 400;
 }
 
@@ -237,7 +237,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #6b6b6b;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -2329,7 +2329,7 @@ ul.labeled-icons li a {
 }
 
 ul.labeled-icons li h3 {
-  color: #b2b2b2;
+  color: #faf7f7;
   left: 0;
   position: absolute;
   text-align: center;
@@ -2692,13 +2692,13 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #302622;
   background-attachment: scroll, scroll;
   background-image: url("../../images/bg.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.79);
   height: 100%;
   left: 0;
   padding: 8em 4em;
