@@ -2244,10 +2244,6 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
-.focusable:focus {
-  outline: 2px solid blue;
-}
-
 /* List */
 
 ol {

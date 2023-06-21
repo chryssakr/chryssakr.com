@@ -44,6 +44,7 @@
       $window.scrollTop($window.scrollTop() + 1);
     }, 0);
   }
+  
 
   // Footer.
   breakpoints.on("<=medium", function () {
@@ -87,32 +88,12 @@
 
   // Main Sections: One.
 
-  // Lightbox gallery.
-  $window.on("load", function () {
-    $("#one").poptrox({
-      caption: function ($a) {
-        return $a.next("h3").text();
-      },
-      overlayColor: "#2c2c2c",
-      overlayOpacity: 0.85,
-      popupCloserText: "",
-      popupLoaderText: "",
-      selector: ".work-item a.image",
-      usePopupCaption: true,
-      usePopupDefaultStyling: false,
-      usePopupEasyClose: false,
-      usePopupNav: true,
-      windowMargin: breakpoints.active("<=small") ? 0 : 50,
-    });
-  });
-})(jQuery);
-
-function handleInteraction(event) {
+/*function handleInteraction(event) {
   if (
     event.type === "click" ||
     (event.type === "keydown" && (event.key === "Enter" || event.key === " "))
   ) {
-    event.preventDefault();
-    window.location.href = event.target.href;
+    //event.preventDefault();
+    window.open(event.target.href, '_blank');
   }
-}
+}*/
